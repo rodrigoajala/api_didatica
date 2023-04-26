@@ -5,24 +5,6 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)  # instanciar o Flask com essa variavel.( foi usado
 # dunder name porque assume o nome do modulo do arquivo).
 
-# books = [
-#     {
-#         'id': 1,
-#         'title': 'Trabahe 4 horas por semana',
-#         'author': 'Timothy Ferriss'
-#     },
-#     {
-#         'id': 2,
-#         'title': 'Como Fazer amigos e influenciar pessoas',
-#         'author': 'Dale Carnegie'
-#     },
-#     {
-#         'id': 3,
-#         'title': 'Quem pensa Enrriquece',
-#         'author': 'Napoleon Hill'
-#     },
-# ]
-
 
 # Consultar todos (todos)
 
